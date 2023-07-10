@@ -1,0 +1,46 @@
+.home-container {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+    /* justify-content: space-around; */
+    /* text-align: center; */
+    align-items:center ;
+    padding: 15px 200px;
+    /* gap: 100px; */
+}
+
+.home-title {
+    /* width: 80%; */
+    color: #272727;
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+}
+
+.home-paragraph {
+    width: 90%;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    /* margin: auto; */
+}
+
+.shop-now {
+    font-size: 18px;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+.home-img img {
+    width: 635px;
+    height: 800px;
+}
+.home-text-container {
+    text-align: left;
+    /* background-color: lightgrey; */
+    padding: 50px;
+}
