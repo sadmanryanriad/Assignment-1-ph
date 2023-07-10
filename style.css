@@ -140,15 +140,56 @@ body {
 
 .flower-text {}
 
+/* sevices */
 .services {
     display: flex;
     width: 1300px;
     height: 200px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin-top: 100px;
     align-items: center;
     text-align: center;
     justify-content: space-around;
     margin: auto;
+}
+
+/* Hot Deal */
+.hot-deal {
+    height: 600px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: 100px 0px 100px 0px;
+}
+
+.hot-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-paragraph {
+    display: flex;
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.btn-sign-up {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hot-img {
+    width: 318px;
+    height: 420px;
 }
