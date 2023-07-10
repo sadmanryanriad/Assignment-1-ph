@@ -73,3 +73,14 @@ margin-top:-25px;
 .featured-section {
     margin-top: 150px;
 }
+.frames {
+    display: flex;
+    padding: 48px 240px;
+    gap: 25px;
+}
+.frame-1, .frame-2, .frame-3{
+    width: 464px;
+    height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
