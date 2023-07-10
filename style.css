@@ -1,10 +1,15 @@
+/* Home styles */
+* {
+    font-family: 'Lato', sans-serif;
+
+}
 .home-container {
     display: flex;
     background-color: rgba(229, 84, 115, 0.10);
     height: 100vh;
     /* justify-content: space-around; */
     /* text-align: center; */
-    align-items:center ;
+    align-items: center;
     padding: 15px 15px 0px 150px;
     /* gap: 100px; */
 }
@@ -13,7 +18,7 @@
     /* width: 80%; */
     color: #272727;
     font-size: 80px;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
 }
 
 .home-paragraph {
@@ -23,6 +28,7 @@
     font-weight: 500;
     line-height: 30px;
     /* margin: auto; */
+    
 }
 
 .shop-now {
@@ -39,8 +45,31 @@
     width: 635px;
     height: 800px;
 }
+
 .home-text-container {
     text-align: left;
     /* background-color: lightgrey; */
     padding: 50px;
+}
+
+/* main styles */
+.featured-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.featured-paragraph {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+margin: auto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top:-25px;
+}
+.featured-section {
+    margin-top: 150px;
 }
