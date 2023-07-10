@@ -4,6 +4,10 @@
 
 }
 
+body {
+    margin: 0px;
+}
+
 .home-container {
     display: flex;
     background-color: rgba(229, 84, 115, 0.10);
@@ -78,8 +82,9 @@
 
 .frames {
     display: flex;
-    padding: 48px 240px;
+    padding: 48px 180px;
     gap: 25px;
+    margin-bottom: 100px;
 }
 
 .frame-1 {
@@ -120,19 +125,30 @@
     line-height: 35px;
     text-decoration-line: underline;
 }
+
 .frame-1-flower {
     margin: 110px 78px 0px 76px;
 }
+
 .frame-2-flower {
     margin: 110px 47px 80px 47px;
 }
+
 .frame-3-flower {
     margin: 67px 75px 0px 75px;
 }
-.flower-text {
 
-}
-/* .frame-text {
+.flower-text {}
+
+.services {
     display: flex;
-    justify-content: space-evenly;
-} */
+    width: 1300px;
+    height: 200px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+}
