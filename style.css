@@ -11,10 +11,10 @@ body {
 .home-container {
     display: flex;
     background-color: rgba(229, 84, 115, 0.10);
-    height: 100vh;
+    /* height: 100vh; */
     justify-content: space-around;
-    align-items: center;
-    padding: 15px 15px 0px 150px;
+    /* align-items: center; */
+    padding: 50px 100px 0px 150px;
 }
 
 .home-title {
@@ -42,7 +42,7 @@ body {
     border: none;
 }
 
-.home-img img {
+.home-img{
     width: 635px;
     height: 800px;
 }
